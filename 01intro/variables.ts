@@ -21,7 +21,7 @@ function addTwo(num: number) {
   return num + 2;
 }
 
-addTwo(8);
+console.log(addTwo(8))
 
 function getUpper(val: string) {
   return val.toUpperCase();
